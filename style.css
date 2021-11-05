@@ -7,44 +7,60 @@
    "Small1 Small2 Small3 sidebar"
    "maincontent maincontent maincontent sidebar"
    "footer footer footer footer";
-   grid-gap: 2rem;
+   grid-gap: 1rem;
 }
 
 .content1{
     grid-area: header;
     background-image: url("https://picsum.photos/id/684/600/400");
     background-size: cover;
+    border-radius: .5rem;
+    text-align: center;
+    
+    
 }
 
 .content2{
     grid-area: Small1;
     background-image: url("https://picsum.photos/id/231/600/400");
     background-size: cover;
+    border-radius: .5rem;
+    text-align: center;
 }
 .content3{
     grid-area: Small2;
     background-image: url("https://picsum.photos/id/235/600/400");
     background-size: cover;
+    border-radius: .5rem;
+    text-align: center;
 }
 .content4{
     grid-area: Small3;
     background-image: url("https://picsum.photos/id/377/600/400");
     background-size: cover;
+    border-radius: .5rem;
+    text-align: center;
 }
 .content5{
     grid-area: sidebar;
     background-image: url("https://picsum.photos/id/393/600/400");
     background-size: cover;
+    border-radius: .5rem;
+    text-align: center;
 }
 .content6{
     grid-area: maincontent;
     background-image: url("https://picsum.photos/id/906/600/400");
     background-size: cover;
+    border-radius: .5rem;
+    text-align: center;
 }
 
 .content7{
     grid-area: footer;
     background-image: url("https://picsum.photos/id/961/600/400");
     background-size: cover;
+    border-radius: .5rem;
+    text-align: center;
 }
 
